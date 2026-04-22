@@ -23,22 +23,3 @@ This project implements a Spring Boot REST API for an online bookstore. The API 
    ```bash
    git clone https://github.com/steveenbaez1-collab/bookstore-api.git
    ```
-2. **Navigate to the project directory:**
-   ```bash
-   cd bookstore-api
-   ```
-3. **Set up the database:**
-   - Create a MySQL database named `bookstore`
-   - Update the application.properties file with your database credentials
-4. **Run the application:**
-   ```bash
-   ./mvnw spring-boot:run
-   ```
-5. **Access the API documentation:**
-   - Visit `http://localhost:8080/swagger-ui/` to view the API documentation.
-
-## Contributing
-Contributions are welcome! Please submit a pull request or create an issue for any changes you'd like to suggest.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
