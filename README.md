@@ -156,7 +156,7 @@ server:
 
 ---
 
-## ▶️ Ejecución del Proyecto
+##  Ejecución del Proyecto
 
 ### 1. Clonar repositorio
 
@@ -178,7 +178,7 @@ mvn spring-boot:run
 
 ---
 
-## 📬 Pruebas de API
+##  Pruebas de API
 
 Puedes probar los endpoints con:
 
@@ -191,29 +191,29 @@ http://localhost:8080/api/v1/swagger-ui.html
 
 ---
 
-## 📦 Endpoints Principales
+##  Endpoints Principales
 
-### 🔐 Auth
+###  Auth
 
 * `POST /auth/register`
 * `POST /auth/login`
 
-### 📚 Books
+###  Books
 
 * `GET /books`
 * `POST /books`
 * `PUT /books/{id}`
 * `DELETE /books/{id}`
 
-### 🛒 Orders
+###  Orders
 
 * `POST /orders`
 * `GET /orders`
 * `GET /orders/my`
 
 ---
-
-## 📌 Entregables
+### 
+##  Entregables
 
 * ✔ API REST funcional
 * ✔ Arquitectura por capas
